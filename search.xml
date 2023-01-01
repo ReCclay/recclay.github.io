@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo修复twikoo评论显示问题</title>
+      <link href="/posts/9aa5897d.html"/>
+      <url>/posts/9aa5897d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://tzy1997.com/articles/hexo1614/">关于Vercel被墙导致获取Twikoo评论失败的解决方案 | 唐志远の博客 (tzy1997.com)</a></li><li><a href="https://vercel.com/docs/concepts/projects/domains#dns-records">Domains – Vercel Docs</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo twikoo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo使用font注意事项 | fontawesome + iconfont</title>
       <link href="/posts/16bbc344.html"/>
       <url>/posts/16bbc344.html</url>
