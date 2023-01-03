@@ -82,6 +82,10 @@ function createWinbox() {
     <h2 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h2>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234699.jpg)" class="imgbox" onclick="changeBg('url(https\://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234699.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234655.jpg)" class="imgbox" onclick="changeBg('url(https\://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234655.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234612.jpg)" class="imgbox" onclick="changeBg('url(https\://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234612.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234570.jpg)" class="imgbox" onclick="changeBg('url(https\://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/202301032234570.jpg)')"></a>
     </div>
     
     
