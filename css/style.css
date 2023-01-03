@@ -98,3 +98,10 @@
         top: 33px;
     }
 }
+
+:root {
+    --card-bg: rgba(255, 255, 255, .6);
+}
+[data-theme='dark'] {
+    --card-bg: rgba(0, 0, 0, .5);
+}
