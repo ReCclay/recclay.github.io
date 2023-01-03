@@ -1,3 +1,22 @@
+/* 由于全屏会出bug，所以直接给他隐藏 */
+
+.winbox {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.wb-full {
+    display: none;
+}
+
+.wb-min {
+    background-position: center;
+}
+
+[data-theme='dark'] .wb-body,
+[data-theme='dark'] #changeBgBox {
+    background: #333 !important;
+}
 
 .bgbox {
     display: flex;
@@ -31,7 +50,8 @@
     height: 100px;
 }
 
-#color {
+/* 老用户如果不再使用页面版可删除下面代码 */
+/* #color {
     border: none;
     background: transparent;
     width: 166px;
@@ -47,8 +67,7 @@
     left: 38px;
     top: 44px;
     content: '自定义颜色';
-}
-
+} */
 
 @media screen and (max-width: 768px) {
     /* 背景 */
@@ -61,7 +80,8 @@
     .pimgbox {
         height: 205px;
     }
-    #color {
+    /* 老用户如果不再使用页面版可删除下面代码 */
+    /* #color {
         width: 141px;
         height: 83px;
         margin: 7px;
@@ -69,15 +89,23 @@
     #color::before {
         left: 33px;
         top: 33px;
+    }     */
+
+    /* 2.0新增内容 */    
+    .wb-min {
+        display: none;
+    }
+    #changeBgBox .wb-body::-webkit-scrollbar {
+        display: none;
     }
 }
 
-/*页面透明度*/
+/*主题透明*/
 :root {
     /* 主题 */
-    --card-bg: rgba(255, 255, 255, .6);
-}
-[data-theme='dark'] {
+    --card-bg: rgba(255, 255, 255, 0.801);
+  }
+  [data-theme='dark'] {
     /* 主题 */
     --card-bg: rgb(47 48 50 / 50%);
-}
+  }
