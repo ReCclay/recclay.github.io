@@ -100,8 +100,10 @@
 }
 
 :root {
+    /* 主题 */
     --card-bg: rgba(255, 255, 255, .6);
 }
 [data-theme='dark'] {
-    --card-bg: rgba(0, 0, 0, .5);
+    /* 主题 */
+    --card-bg: rgb(47 48 50 / 50%);
 }
