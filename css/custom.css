@@ -96,7 +96,6 @@ h6::before {
 	padding: 0 3px;
 	border-bottom: 2px #4976f5 solid
 }
-
 #post #article-container a:not([class]):hover {
 	color: #fff;
 	border-radius: 5px;
@@ -104,4 +103,20 @@ h6::before {
 	background-color: #4976f5
 }
 
-
+/*切换壁纸page下的自定义颜色样式*/
+#color {
+  border: none;
+  background: 0 0;
+  width: 166px;
+  height: 110px;
+  margin: 5px 10px;
+  position: relative;
+  cursor: pointer;
+}
+#color::before {
+  position: absolute;
+  color: #fff;
+  left: 38px;
+  top: 44px;
+  content: '自定义颜色';
+}
