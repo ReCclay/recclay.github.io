@@ -48,34 +48,7 @@
     top: 44px;
     content: '自定义颜色';
 }
-@media screen and (min-width: 768px) {
-    /* 页面宽度 */
-    .page #content-inner {
-        max-width: 1200px !important;
-        padding: 40px 0;
-    }
-    /* 顶部导航 */
-    .menus_item>a>span {
-        padding-left: 8px;
-    }
-    .menus_item>a {
-        border-radius: 8px;
-        padding: 12px 20px !important;
-        letter-spacing: 8px;
-        font-weight: bold
-    }
-    .menus_item>a i {
-        display: none;
-    }
-    a#site-name {
-        font-size: 25px !important;
-        padding: 8.5px 12px !important;
-    }
-    /* 文章卡片 */
-    #recent-posts>.recent-post-item {
-        height: 14rem;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     /* 背景 */
@@ -99,6 +72,7 @@
     }
 }
 
+/*页面透明度*/
 :root {
     /* 主题 */
     --card-bg: rgba(255, 255, 255, .6);
