@@ -1,1 +1,183 @@
-h1::before,h2::before,h3::before,h4::before,h5::before,h6::before{-webkit-animation:ccc 4s linear infinite;animation:ccc 4s linear infinite}@-webkit-keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}@keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}#content-inner.layout h1::before{color:#ef50a8;margin-left:-1.55rem;font-size:1.3rem;margin-top:-.23rem}#content-inner.layout h2::before{color:#fb7061;margin-left:-1.35rem;font-size:1.1rem;margin-top:-.12rem}#content-inner.layout h3::before{color:#ffbf00;margin-left:-1.22rem;font-size:.95rem;margin-top:-.09rem}#content-inner.layout h4::before{color:#a9e000;margin-left:-1.05rem;font-size:.8rem;margin-top:-.09rem}#content-inner.layout h5::before{color:#57c850;margin-left:-.9rem;font-size:.7rem;margin-top:0}#content-inner.layout h6::before{color:#5ec1e0;margin-left:-.9rem;font-size:.66rem;margin-top:0}#content-inner.layout h1:hover,#content-inner.layout h2:hover,#content-inner.layout h3:hover,#content-inner.layout h4:hover,#content-inner.layout h5:hover,#content-inner.layout h6:hover{color:var(--theme-color)}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before{color:var(--theme-color);-webkit-animation:ccc 6s linear infinite;animation:ccc 6s linear infinite}#color{border:none;background:0 0;width:166px;height:110px;margin:5px 10px;position:relative;cursor:pointer}#color::before{position:absolute;color:#fff;left:38px;top:44px;content:'自定义颜色'}.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before{content:'输入QQ号会自动获取昵称和头像🐧'}.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before{content:'收到回复将会发送到您的邮箱📧'}.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before{content:'可以通过昵称访问您的网站🔗'}.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after,.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before{display:block}.el-input.el-input--small.el-input-group.el-input-group--prepend::before{display:none;position:absolute;top:-60px;white-space:nowrap;border-radius:10px;left:50%;transform:translate(-50%);padding:14px 18px;background:#444;color:#fff}.el-input.el-input--small.el-input-group.el-input-group--prepend::after{display:none;content:'';position:absolute;border:12px solid transparent;border-top-color:#444;left:50%;transform:translate(-50%,-48px)}
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 4s linear infinite;
+  animation: ccc 4s linear infinite;
+}
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: var(--theme-color);
+}
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: var(--theme-color);
+  -webkit-animation: ccc 6s linear infinite;
+  animation: ccc 6s linear infinite;
+}
+
+
+/*超链接CSS*/
+/* #post #article-container a:not([class]) {
+	font-weight: 700;
+	color: var(--font-color);
+	word-break: break-all;
+	padding: 0 3px;
+	border-bottom: 2px #4976f5 solid
+}
+#post #article-container a:not([class]):hover {
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #4976f5
+} */
+
+/*切换壁纸page下的自定义颜色样式*/
+#color {
+  border: none;
+  background: 0 0;
+  width: 166px;
+  height: 110px;
+  margin: 5px 10px;
+  position: relative;
+  cursor: pointer;
+}
+#color::before {
+  position: absolute;
+  color: #fff;
+  left: 38px;
+  top: 44px;
+  content: '自定义颜色';
+}
+
+
+/*解决安装“首页分类磁贴新版(店长)”后分类依旧显示旧的文字版分类和图标的问题*/
+/* li.category-list-item {
+  display: none;
+}
+li.categoryBar-list-item::before {
+  display: none;
+} */
+
+
+/*评论输入提醒（Leonus）*/
+/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
+/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
+  content: '输入QQ号会自动获取昵称和头像🐧';
+}
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
+  content: '收到回复将会发送到您的邮箱📧';
+}
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
+  content: '可以通过昵称访问您的网站🔗';
+}
+/* 当用户点击输入框时显示 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before,
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after {
+  display: block;
+}
+/* 主内容区 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::before {
+  /* 先隐藏起来 */
+  display: none;
+  /* 绝对定位 */
+  position: absolute;
+  /* 向上移动60像素 */
+  top: -60px;
+  /* 文字强制不换行，防止left:50%导致的文字换行 */
+  white-space: nowrap;
+  /* 圆角 */
+  border-radius: 10px;
+  /* 距离左边50% */
+  left: 50%;
+  /* 然后再向左边挪动自身的一半，即可实现居中 */
+  transform: translate(-50%);
+  /* 填充 */
+  padding: 14px 18px;
+  background: #444;
+  color: #fff;
+}
+/* 小角标 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::after {
+  display: none;
+  content: '';
+  position: absolute;
+  /* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。
+  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
+  border: 12px solid transparent;
+  border-top-color: #444;
+  left: 50%;
+  transform: translate(-50%, -48px);
+}
