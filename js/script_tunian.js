@@ -71,8 +71,8 @@ var newYearBg = () => {
     clearInterval(newYearBgTimer);
     let dom = document.querySelector('#newYear-main');
     if (dom) {
-        dom.style.backgroundImage = `url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/tunian${newYearBgNum}.webp)`
-        newYearBgTimer = setInterval(() => { dom.style.backgroundImage = `url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/tunian${newYearBgNum==3?newYearBgNum=1:newYearBgNum+=1}.webp)` }, 10000);
+        dom.style.backgroundImage = `url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_blog/blog_asset/css_img/tunian${newYearBgNum}.webp)`
+        newYearBgTimer = setInterval(() => { dom.style.backgroundImage = `url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_blog/blog_asset/css_img/tunian${newYearBgNum==3?newYearBgNum=1:newYearBgNum+=1}.webp)` }, 10000);
     }
 }
 

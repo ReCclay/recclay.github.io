@@ -22,7 +22,7 @@
     position: relative;
     border-radius: 12px;
     transition: .5s;
-    background-image: url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/tunian2.webp); /*url(/img/tunian.webp);*/
+    background-image: url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_blog/blog_asset/css_img/tunian2.webp); /*url(/img/tunian.webp);*/
     background-size: cover;
     background-position: center;
 }
