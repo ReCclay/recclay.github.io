@@ -256,7 +256,7 @@ li.categoryBar-list-item::before {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   box-sizing: border-box;
-  background: url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_typora/gongzhonghao.png) center center no-repeat; /*url(https://bu.dusays.com/2022/10/30/635e9c6a228a3.png) center center no-repeat;*/
+  background: url(https://recclay.oss-cn-chengdu.aliyuncs.com/img_for_blog/blog_asset/css_img/gongzhonghao.png) center center no-repeat; /*url(https://bu.dusays.com/2022/10/30/635e9c6a228a3.png) center center no-repeat;*/
   background-size: 100%;
 }
 /* 公众号 End */
